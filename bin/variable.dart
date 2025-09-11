@@ -26,3 +26,24 @@ void main() {
   print("City: $city");
   print("Dynamic Variable: $anything");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
