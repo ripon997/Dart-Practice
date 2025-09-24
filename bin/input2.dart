@@ -24,6 +24,4 @@ void main(){
   print("This person location is : $location");
   print("This person salary is : $salary");
 
-
-
 }
