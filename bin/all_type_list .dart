@@ -18,5 +18,7 @@ numbers1.removeAt(2);
 numbers1.addAll([10,20,70]);
   print(numbers1);
 
+  numbers1.insert(2, 25);       // index 2 value
+  print(numbers1);
 
 }
