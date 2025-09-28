@@ -6,5 +6,10 @@ void main(){
     'Nepal' : 'Kathmandu'
   };
   print(capitals);
-
+  print(capitals['India']);
+print(capitals.keys);
+print(capitals.values);
+  capitals.forEach((key,value){
+    print("$key,$value");
+  });
 }
