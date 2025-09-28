@@ -13,12 +13,13 @@ void main(){
   print(numbers1);
 
   print(numbers1.length);
-numbers1.removeAt(2);
+  numbers1.removeAt(2);
   print(numbers1);
-numbers1.addAll([10,20,70]);
+  numbers1.addAll([10,20,70]);
   print(numbers1);
 
   numbers1.insert(2, 25);       // index 2 value
-  print(numbers1);
-
+  print(numbers1.reversed);
+ // print(numbers1.single);
+  
 }
