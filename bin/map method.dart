@@ -11,7 +11,7 @@ void main(){
   });
 
   //information.clear();//clear all values
-information.remove('email');
+  information.remove('email');
   print(information);
 
 }
