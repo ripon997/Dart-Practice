@@ -7,6 +7,9 @@ void main(){
     {'name':'khata','price':50},
   ];
   for(var oneProduct in productList){
-    print(oneProduct);
+    var item = "Product name is ${oneProduct['name']}";
+    //print(oneProduct['name']);
+    print(item);;
+
   }
 }
