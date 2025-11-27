@@ -5,9 +5,15 @@ totalTaka(){
 }
 class child extends father{
 
+  totalTaka() {
+  print("Taka shesh");
+
+  }
 }
 
 void main(){
-  var obj = child();
+  var obj = father();
   obj.totalTaka();
+  var obj1 = child();
+  obj1.totalTaka();
 }
